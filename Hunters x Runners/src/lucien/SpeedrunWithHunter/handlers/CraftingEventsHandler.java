@@ -1,4 +1,4 @@
-package lucien.HuntersXRunners.handlers;
+package lucien.SpeedrunWithHunter.handlers;
 
 import java.util.UUID;
 
@@ -11,8 +11,8 @@ import org.bukkit.inventory.CraftingInventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
-import lucien.HuntersXRunners.game.GameItems;
-import lucien.HuntersXRunners.game.Main;
+import lucien.SpeedrunWithHunter.game.GameItems;
+import lucien.SpeedrunWithHunter.game.Main;
 
 public class CraftingEventsHandler implements Listener {
     @EventHandler

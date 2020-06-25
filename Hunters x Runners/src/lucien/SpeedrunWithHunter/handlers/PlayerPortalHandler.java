@@ -1,4 +1,4 @@
-package lucien.HuntersXRunners.handlers;
+package lucien.SpeedrunWithHunter.handlers;
 
 import java.util.UUID;
 
@@ -10,9 +10,9 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerPortalEvent;
 
-import lucien.HuntersXRunners.game.Main;
-import lucien.HuntersXRunners.utilities.CompassTracking;
-import lucien.HuntersXRunners.utilities.DimensionTracker;
+import lucien.SpeedrunWithHunter.game.Main;
+import lucien.SpeedrunWithHunter.utilities.CompassTracking;
+import lucien.SpeedrunWithHunter.utilities.DimensionTracker;
 
 public class PlayerPortalHandler implements Listener { 
     @EventHandler

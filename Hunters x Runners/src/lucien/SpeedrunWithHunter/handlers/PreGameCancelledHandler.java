@@ -1,4 +1,4 @@
-package lucien.HuntersXRunners.handlers;
+package lucien.SpeedrunWithHunter.handlers;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -7,7 +7,7 @@ import org.bukkit.event.entity.EntityPickupItemEvent;
 import org.bukkit.event.entity.FoodLevelChangeEvent;
 import org.bukkit.event.player.PlayerDropItemEvent;
 
-import lucien.HuntersXRunners.game.Main;
+import lucien.SpeedrunWithHunter.game.Main;
 
 public class PreGameCancelledHandler implements Listener {
     @EventHandler

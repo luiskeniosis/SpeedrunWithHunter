@@ -1,4 +1,4 @@
-package lucien.HuntersXRunners.game;
+package lucien.SpeedrunWithHunter.game;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,19 +9,19 @@ import org.bukkit.World;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import lucien.HuntersXRunners.commands.GraceCommand;
-import lucien.HuntersXRunners.commands.TestCommand;
-import lucien.HuntersXRunners.handlers.CraftingEventsHandler;
-import lucien.HuntersXRunners.handlers.EntityDamageHandler;
-import lucien.HuntersXRunners.handlers.FoundrySystemHandler;
-import lucien.HuntersXRunners.handlers.GameStartHandler;
-import lucien.HuntersXRunners.handlers.PlaceAndBreakHandler;
-import lucien.HuntersXRunners.handlers.PlayerDeathHandler;
-import lucien.HuntersXRunners.handlers.PlayerInteractHandler;
-import lucien.HuntersXRunners.handlers.PlayerJoinHandler;
-import lucien.HuntersXRunners.handlers.PlayerMoveHandler;
-import lucien.HuntersXRunners.handlers.PlayerPortalHandler;
-import lucien.HuntersXRunners.handlers.PreGameCancelledHandler;
+import lucien.SpeedrunWithHunter.commands.GraceCommand;
+import lucien.SpeedrunWithHunter.commands.TestCommand;
+import lucien.SpeedrunWithHunter.handlers.CraftingEventsHandler;
+import lucien.SpeedrunWithHunter.handlers.EntityDamageHandler;
+import lucien.SpeedrunWithHunter.handlers.FoundrySystemHandler;
+import lucien.SpeedrunWithHunter.handlers.GameStartHandler;
+import lucien.SpeedrunWithHunter.handlers.PlaceAndBreakHandler;
+import lucien.SpeedrunWithHunter.handlers.PlayerDeathHandler;
+import lucien.SpeedrunWithHunter.handlers.PlayerInteractHandler;
+import lucien.SpeedrunWithHunter.handlers.PlayerJoinHandler;
+import lucien.SpeedrunWithHunter.handlers.PlayerMoveHandler;
+import lucien.SpeedrunWithHunter.handlers.PlayerPortalHandler;
+import lucien.SpeedrunWithHunter.handlers.PreGameCancelledHandler;
 
 public class Main extends JavaPlugin {
     public static Main plugin;

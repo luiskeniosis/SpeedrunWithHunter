@@ -1,4 +1,4 @@
-package lucien.HuntersXRunners.utilities;
+package lucien.SpeedrunWithHunter.utilities;
 
 import java.util.UUID;
 

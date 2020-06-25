@@ -1,4 +1,4 @@
-package lucien.HuntersXRunners.commands;
+package lucien.SpeedrunWithHunter.commands;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
 import org.bukkit.entity.Player;
 
-import lucien.HuntersXRunners.game.Main;
+import lucien.SpeedrunWithHunter.game.Main;
 
 public class GraceCommand implements CommandExecutor, TabCompleter {
     @Override

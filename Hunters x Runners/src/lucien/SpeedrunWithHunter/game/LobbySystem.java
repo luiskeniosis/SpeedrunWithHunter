@@ -1,4 +1,4 @@
-package lucien.HuntersXRunners.game;
+package lucien.SpeedrunWithHunter.game;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -19,7 +19,7 @@ import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.permissions.PermissionAttachmentInfo;
 import org.bukkit.scheduler.BukkitRunnable;
 
-import lucien.HuntersXRunners.events.GameStartEvent;
+import lucien.SpeedrunWithHunter.events.GameStartEvent;
 
 public class LobbySystem {
     public static List<UUID> playersReady = new ArrayList<UUID>();

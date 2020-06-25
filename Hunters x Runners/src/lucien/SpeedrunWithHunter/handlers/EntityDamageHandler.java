@@ -1,4 +1,4 @@
-package lucien.HuntersXRunners.handlers;
+package lucien.SpeedrunWithHunter.handlers;
 
 import org.bukkit.World.Environment;
 import org.bukkit.entity.Entity;

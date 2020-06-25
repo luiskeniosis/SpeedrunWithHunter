@@ -1,4 +1,4 @@
-package lucien.HuntersXRunners.handlers;
+package lucien.SpeedrunWithHunter.handlers;
 
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -10,11 +10,11 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.EquipmentSlot;
 import org.bukkit.inventory.ItemStack;
 
-import lucien.HuntersXRunners.game.FoundrySystem;
-import lucien.HuntersXRunners.game.GameItems;
-import lucien.HuntersXRunners.game.LobbySystem;
-import lucien.HuntersXRunners.game.Main;
-import lucien.HuntersXRunners.utilities.CompassTracking;
+import lucien.SpeedrunWithHunter.game.FoundrySystem;
+import lucien.SpeedrunWithHunter.game.GameItems;
+import lucien.SpeedrunWithHunter.game.LobbySystem;
+import lucien.SpeedrunWithHunter.game.Main;
+import lucien.SpeedrunWithHunter.utilities.CompassTracking;
 
 public class PlayerInteractHandler implements Listener {
     @EventHandler

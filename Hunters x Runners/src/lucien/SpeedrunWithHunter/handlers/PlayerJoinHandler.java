@@ -1,4 +1,4 @@
-package lucien.HuntersXRunners.handlers;
+package lucien.SpeedrunWithHunter.handlers;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
@@ -6,8 +6,8 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 
-import lucien.HuntersXRunners.game.GameItems;
-import lucien.HuntersXRunners.game.Main;
+import lucien.SpeedrunWithHunter.game.GameItems;
+import lucien.SpeedrunWithHunter.game.Main;
 
 public class PlayerJoinHandler implements Listener {
     @EventHandler

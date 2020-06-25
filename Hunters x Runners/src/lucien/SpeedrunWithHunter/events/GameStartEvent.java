@@ -1,4 +1,4 @@
-package lucien.HuntersXRunners.events;
+package lucien.SpeedrunWithHunter.events;
 
 import java.util.ArrayList;
 import java.util.List;

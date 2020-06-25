@@ -1,4 +1,4 @@
-package lucien.HuntersXRunners.commands;
+package lucien.SpeedrunWithHunter.commands;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;

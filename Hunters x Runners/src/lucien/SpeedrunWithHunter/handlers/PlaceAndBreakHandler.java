@@ -1,4 +1,4 @@
-package lucien.HuntersXRunners.handlers;
+package lucien.SpeedrunWithHunter.handlers;
 
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -7,7 +7,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.block.BlockPlaceEvent;
 
-import lucien.HuntersXRunners.game.FoundrySystem;
+import lucien.SpeedrunWithHunter.game.FoundrySystem;
 
 public class PlaceAndBreakHandler implements Listener {
     @EventHandler

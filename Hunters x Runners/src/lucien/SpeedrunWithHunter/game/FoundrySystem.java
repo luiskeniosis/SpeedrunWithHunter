@@ -1,4 +1,4 @@
-package lucien.HuntersXRunners.game;
+package lucien.SpeedrunWithHunter.game;
 
 import java.util.ArrayList;
 import java.util.List;

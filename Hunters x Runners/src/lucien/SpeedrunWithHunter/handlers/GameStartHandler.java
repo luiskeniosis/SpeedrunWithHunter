@@ -1,4 +1,4 @@
-package lucien.HuntersXRunners.handlers;
+package lucien.SpeedrunWithHunter.handlers;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,10 +20,10 @@ import org.bukkit.event.Listener;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
-import lucien.HuntersXRunners.events.GameStartEvent;
-import lucien.HuntersXRunners.game.GameItems;
-import lucien.HuntersXRunners.game.Main;
-import lucien.HuntersXRunners.utilities.DimensionTracker;
+import lucien.SpeedrunWithHunter.events.GameStartEvent;
+import lucien.SpeedrunWithHunter.game.GameItems;
+import lucien.SpeedrunWithHunter.game.Main;
+import lucien.SpeedrunWithHunter.utilities.DimensionTracker;
 
 public class GameStartHandler implements Listener {
     public static List<UUID> gameStartFallingPlayers = new ArrayList<UUID>();

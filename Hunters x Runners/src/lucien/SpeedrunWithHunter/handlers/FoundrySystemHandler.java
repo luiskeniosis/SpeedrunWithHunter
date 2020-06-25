@@ -1,4 +1,4 @@
-package lucien.HuntersXRunners.handlers;
+package lucien.SpeedrunWithHunter.handlers;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
@@ -12,7 +12,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.block.CauldronLevelChangeEvent;
 import org.bukkit.event.entity.EntityChangeBlockEvent;
 
-import lucien.HuntersXRunners.game.FoundrySystem;
+import lucien.SpeedrunWithHunter.game.FoundrySystem;
 
 public class FoundrySystemHandler implements Listener {
     @EventHandler

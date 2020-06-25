@@ -1,4 +1,4 @@
-package lucien.HuntersXRunners.handlers;
+package lucien.SpeedrunWithHunter.handlers;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
 
-import lucien.HuntersXRunners.game.GameItems;
-import lucien.HuntersXRunners.game.Main;
+import lucien.SpeedrunWithHunter.game.GameItems;
+import lucien.SpeedrunWithHunter.game.Main;
 
 public class PlayerDeathHandler implements Listener {
     @EventHandler

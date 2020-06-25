@@ -1,4 +1,4 @@
-package lucien.HuntersXRunners.handlers;
+package lucien.SpeedrunWithHunter.handlers;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -7,7 +7,7 @@ import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
-import lucien.HuntersXRunners.game.Main;
+import lucien.SpeedrunWithHunter.game.Main;
 
 public class PlayerMoveHandler implements Listener {
     private static PotionEffect runnerSpeed = new PotionEffect(PotionEffectType.SPEED, 100, 0, true, false, false);
