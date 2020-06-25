@@ -17,7 +17,7 @@ Runners kits are refered to as professions, which helps them gather resources, o
 
 Hunters kits are refered to as just Hunters, that help them catch runners, kill them, or to make it harder for the runner to beat the game.
 
-Portals used in the overworld are partially destroyed once it's been used. Nether portals will lose 3 out of the 10 frame blocks, and end portals will lose 3 out of the 12 eyes that were placed. This is to give runners a bit of time after getting to the nether/end to do what they need to do there.
+Nether portals used in the overworld are partially destroyed once it's been used. They will lose 3 out of the 10 frame blocks. This is to give runners a bit of time after getting there to do what they need to do there.
 
 There is no grace period when the game starts. All players are randomly spread in a 75 block RADIUS, meaning they can spawn on the same block, or up to 150 blocks away. All up to luck. Runners are given a burst of speed, haste, and dolphin's grace when they first walk.
 
