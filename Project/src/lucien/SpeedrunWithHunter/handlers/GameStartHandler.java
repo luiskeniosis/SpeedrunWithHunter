@@ -23,12 +23,13 @@ import org.bukkit.potion.PotionEffectType;
 import lucien.SpeedrunWithHunter.events.GameStartEvent;
 import lucien.SpeedrunWithHunter.game.GameItems;
 import lucien.SpeedrunWithHunter.game.Main;
-import lucien.SpeedrunWithHunter.utilities.DimensionTracker;
+import lucien.SpeedrunWithHunter.utilities.DimensionalUtility;
 
 public class GameStartHandler implements Listener {
     public static List<UUID> gameStartFallingPlayers = new ArrayList<UUID>();
     private static PotionEffect gameStartSpeed = new PotionEffect(PotionEffectType.SPEED, 100, 1);
     private static PotionEffect gameStartHaste = new PotionEffect(PotionEffectType.FAST_DIGGING, 300, 0);
+    private static PotionEffect gameStartDolphinGrace = new PotionEffect(PotionEffectType.DOLPHINS_GRACE, 100, 1);
 
     @EventHandler
     public void handle(GameStartEvent event) {
@@ -68,10 +69,11 @@ public class GameStartHandler implements Listener {
 	world.setTime(0);
 	world.setGameRule(GameRule.MOB_GRIEFING, true);
 	for(UUID uuid : Main.runners) {
-	    DimensionTracker.runnersInOverworld.add(uuid);
+	    DimensionalUtility.runnersInOverworld.add(uuid);
 	    Player player = Bukkit.getPlayer(uuid);
 	    player.addPotionEffect(gameStartSpeed);
 	    player.addPotionEffect(gameStartHaste);
+	    player.addPotionEffect(gameStartDolphinGrace);
 	    player.setAbsorptionAmount(20.0);
 	}
 	for(UUID uuid : Main.hunters) {

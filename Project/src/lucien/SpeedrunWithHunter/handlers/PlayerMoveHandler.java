@@ -19,6 +19,7 @@ public class PlayerMoveHandler implements Listener {
 	    if(GameStartHandler.gameStartFallingPlayers.contains(player.getUniqueId()) && (player.isOnGround() || player.isSwimming())) {
 		player.removePotionEffect(PotionEffectType.SLOW_FALLING);
 		GameStartHandler.gameStartFallingPlayers.remove(player.getUniqueId());
+		player.setBedSpawnLocation(player.getLocation(), true);
 	    }
 	}
 	if(Main.runners.contains(player.getUniqueId())) {

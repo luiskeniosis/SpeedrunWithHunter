@@ -17,7 +17,7 @@ public class CompassTracking {
     public static void track(Player playerTracking) {
 	Player target = getNearestPlayer(playerTracking);
 	if(playerTracking.getWorld().getEnvironment() == World.Environment.NORMAL) {
-	    if(!DimensionTracker.runnersInEnd.isEmpty()) {
+	    if(!DimensionalUtility.runnersInEnd.isEmpty()) {
 		Location targetLocation = playerTracking.getWorld().locateNearestStructure(playerTracking.getLocation(), StructureType.STRONGHOLD, 64, false);
 		playerTracking.setCompassTarget(targetLocation);
 		playerTracking.sendMessage(ChatColor.translateAlternateColorCodes('&', "&8[&5Lucien&l&dAI&r&8] &eA runner made it to the End. Tracking nearest &fEnd Portal&e."));
@@ -57,9 +57,9 @@ public class CompassTracking {
     public static Player getNearestPlayer(Player playerTracking) {
 	Player target = null;
 	if(playerTracking.getWorld().getEnvironment() == World.Environment.NORMAL) {
-	    if(!DimensionTracker.runnersInOverworld.isEmpty()) {
+	    if(!DimensionalUtility.runnersInOverworld.isEmpty()) {
 		double currentSearchDistance = Double.POSITIVE_INFINITY;
-		for(UUID uuid : DimensionTracker.runnersInOverworld) {
+		for(UUID uuid : DimensionalUtility.runnersInOverworld) {
 		    Player runner = Bukkit.getPlayer(uuid);
 		    double distanceBetween = playerTracking.getLocation().distance(runner.getLocation());
 		    if(distanceBetween > currentSearchDistance)
@@ -73,9 +73,9 @@ public class CompassTracking {
 		return target;
 	}
 	else if(playerTracking.getWorld().getEnvironment() == World.Environment.NETHER) {
-	    if(!DimensionTracker.runnersInNether.isEmpty()) {
+	    if(!DimensionalUtility.runnersInNether.isEmpty()) {
 		double currentSearchDistance = Double.POSITIVE_INFINITY;
-		for(UUID uuid : DimensionTracker.runnersInNether) {
+		for(UUID uuid : DimensionalUtility.runnersInNether) {
 		    Player runner = Bukkit.getPlayer(uuid);
 		    double distanceBetween = playerTracking.getLocation().distance(runner.getLocation());
 		    if(distanceBetween > currentSearchDistance)
