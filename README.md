@@ -47,10 +47,11 @@ Runners have access to custom recipes to help defend against various hunters, or
 -Apple with bone meal creates 2 apples.
 -Golden apples can be crafted with just 4 gold ingots rather than 9.
 -Fortress locator: can only be used in the nether, will break after once use, will give the coordinates of the nearest Nether fortress.
-|    :----:   |    :----:      |    :----:   |
-| Glowstone   | Iron Ingot     | Glowstone   |
-| Iron Ingot  | Magma Block    | Iron Ingot  |
-| Glowstone   | Iron Ingot     | Glowstone   |
+| **Recipe:**    |                |             |
+|    :----:      |    :----:      |    :----:   |
+| Glowstone      | Iron Ingot     | Glowstone   |
+| Iron Ingot     | Magma Block    | Iron Ingot  |
+| Glowstone      | Iron Ingot     | Glowstone   |
 
 
 ## Custom Enchants:
