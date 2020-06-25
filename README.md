@@ -2,7 +2,7 @@
 SpEedRUn with HuNteR???!??!🤪 **Note: I will move this into the Wiki section once I finialize the project a little more.**
 
 ## Concept:
-*(Ideas that I had when I began making this game mode. Tweaked as I worked on the project)*
+*(Ideas that I had when I began making this game mode. Tweaked as I worked on the project)*  
 Players are split into teams of hunters and runners in a 1:1or2 ratio.
 This means that if there are 2 players, 1 is a hunter, and 1 is a runner.
 If there are 3 players, 1 is hunter, 2 are runners
@@ -50,7 +50,7 @@ Will poison and slow Vampires.
 Silver ingots can be crafted with iron ingots and gunpowder. Which can be used to create Silver swords, or silver arrows which deal double damage to werewolves and also sets them on fire.
 
 ### Eve's Blessing
--Apple with bone meal creates 2 apples.
+-Apple with bone meal creates 2 apples.  
 -Golden apples can be crafted with just 4 gold ingots rather than 9.
 
 ### Fortress Locator
