@@ -42,26 +42,36 @@ Each hunter becomes empowered through gameplay. Every hunter will be empowered b
 
 ## Custom Recipes (Runners Only):
 Runners have access to custom recipes to help defend against various hunters, or to help them survive.
--Arrows and Allium will craft Garlic coated arrows, which will poison and slow Vampires.
--Silver ingots can be crafted with iron ingots and gunpowder. Which can be used to create Silver swords, or silver arrows which deal double damage to werewolves and also sets them on fire.
+### Garlic Coated Arrows
+**Recipe:** Arrows and Allium.
+Will poison and slow Vampires.
+
+### Silver + Silver Tools
+Silver ingots can be crafted with iron ingots and gunpowder. Which can be used to create Silver swords, or silver arrows which deal double damage to werewolves and also sets them on fire.
+
+### Eve's Blessing
 -Apple with bone meal creates 2 apples.
 -Golden apples can be crafted with just 4 gold ingots rather than 9.
--Fortress locator: can only be used in the nether, will break after once use, will give the coordinates of the nearest Nether fortress.
+
+### Fortress Locator
 | **Recipe:**    |                |             |
 |    :----:      |    :----:      |    :----:   |
 | Glowstone      | Iron Ingot     | Glowstone   |
 | Iron Ingot     | Magma Block    | Iron Ingot  |
 | Glowstone      | Iron Ingot     | Glowstone   |
 
+Can only be used in the nether, will break after once use, will give the coordinates of the nearest Nether fortress.
 
 ## Custom Enchants:
 *Heavy WIP*
 Custom enchantment books can be crafted by either hunter or runner. When crafted they'll give an enchanted book, which can be applied to its perspective tool by click and drop.
 ### Autosmelt
-|    :----:   |    :----:      |    :----:   |
-| Redstone    | Redstone Block | Redstone    |
-| Furnace     | Book           | Furnace     |
-| Coal Block  | Coal Block     | Coal Block  |
+| **Recipe:**|                |             |
+|    :----:  |    :----:      |    :----:   |
+| Redstone   | Redstone Block | Redstone    |
+| Furnace    | Book           | Furnace     |
+| Coal Block | Coal Block     | Coal Block  |
+
 Can only be applied to pickaxes, automatically smelts ores mined. Overrides silk touch and fortune.
 
 ## In the Nether..
