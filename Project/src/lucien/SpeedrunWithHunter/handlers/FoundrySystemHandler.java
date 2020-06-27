@@ -15,6 +15,7 @@ import org.bukkit.event.entity.EntityChangeBlockEvent;
 import lucien.SpeedrunWithHunter.game.FoundrySystem;
 
 public class FoundrySystemHandler implements Listener {
+    //Handles CauldronLevelChangeEvent and EntityChangeBlockEvent
     @EventHandler
     public void handle(CauldronLevelChangeEvent event) {
 	if(event.getEntity() instanceof Player) {

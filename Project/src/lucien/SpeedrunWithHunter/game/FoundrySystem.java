@@ -23,8 +23,8 @@ import org.bukkit.scheduler.BukkitRunnable;
 public class FoundrySystem {
     public static ConcurrentHashMap<Location, Integer> listOfFoundrys = new ConcurrentHashMap<Location, Integer>();
     public static ConcurrentHashMap<Location, ArmorStand> listOfLavaStands = new ConcurrentHashMap<Location, ArmorStand>();
-    public static List<UUID> createdForgeBefore = new ArrayList<UUID>();
     public static List<UUID> playersForging = new ArrayList<UUID>();
+    //public static List<UUID> createdForgeBefore = new ArrayList<UUID>();
 
     public static void cauldronPlaced(Block blockPlaced, Player blockPlacer) {
 	Location blockPlacedLocation = blockPlaced.getLocation();

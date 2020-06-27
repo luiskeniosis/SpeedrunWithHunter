@@ -21,7 +21,9 @@ import lucien.SpeedrunWithHunter.handlers.PlayerInteractHandler;
 import lucien.SpeedrunWithHunter.handlers.PlayerJoinHandler;
 import lucien.SpeedrunWithHunter.handlers.PlayerMoveHandler;
 import lucien.SpeedrunWithHunter.handlers.PlayerPortalHandler;
+import lucien.SpeedrunWithHunter.handlers.PlayerTeleportHandler;
 import lucien.SpeedrunWithHunter.handlers.PreGameCancelledHandler;
+import lucien.SpeedrunWithHunter.handlers.ProjectileLaunchAndHitHandler;
 
 public class Main extends JavaPlugin {
     public static Main plugin;
@@ -75,5 +77,7 @@ public class Main extends JavaPlugin {
 	pluginManager.registerEvents(new PlaceAndBreakHandler(), this);
 	pluginManager.registerEvents(new FoundrySystemHandler(), this);
 	pluginManager.registerEvents(new EntityDamageHandler(), this);
+	pluginManager.registerEvents(new ProjectileLaunchAndHitHandler(), this);
+	pluginManager.registerEvents(new PlayerTeleportHandler(), this);
     }
 }

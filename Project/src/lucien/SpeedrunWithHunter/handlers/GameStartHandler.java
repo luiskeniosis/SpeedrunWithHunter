@@ -34,28 +34,37 @@ public class GameStartHandler implements Listener {
     @EventHandler
     public void handle(GameStartEvent event) {
 	World world = Bukkit.getWorld("hxr");
-	int maxX = 151;
-	int maxZ = 151;
 	Random random = new Random();
 	for(Player player : event.getPlayers()) {
 	    player.getInventory().removeItem(GameItems.runnerKitSelector, GameItems.hunterKitSelector);
 	    player.sendTitle(ChatColor.GREEN + "GO!", "", 0, 40, 10);
-	    //Generate a number between 0 and (maxX-1)
-	    int x = random.nextInt(maxX);
-	    //Generate a number between 0 and (maxZ-1)
-	    int z = random.nextInt(maxZ);
-	    //If the number generated was in the upper half
-	    if(x > 75)
-		//Divide it by 2 and reverse it
-		x = (x/2) * -1;
-	    //If the number generated was in the upper half
-	    if(z > 75)
-		//Divide it by 2 and reverse it
-		z = (z/2) * -1;
-	    if(player.hasPermission("hxr.kit.exile"))
-		player.teleport(new Location(world, x+200, player.getWorld().getHighestBlockYAt(x+200, z+200) + 50, z+200));
-	    else
+	    int x; int z;
+	    if(player.hasPermission("speedrun.profession.exile")) {
+		x = random.nextInt(201);
+		z = random.nextInt(201);
+		if(x > 100) {
+		    x = (x/2) * -1;
+		    x = x - 200;
+		}
+		else
+		    x = x + 200;
+		if(z > 100) {
+		    z = (z/2) * -1;
+		    z = z - 200;
+		}
+		else
+		    z = z + 200;
+		player.teleport(new Location(player.getWorld(), x, player.getWorld().getHighestBlockYAt(x, z) + 50, z));
+	    }
+	    else {
+		x = random.nextInt(151);
+		z = random.nextInt(151);
+		if(x > 75)
+		    x = (x/2) * -1;
+		if(z > 75)
+		    z = (z/2) * -1;
 		player.teleport(new Location(world, x, player.getWorld().getHighestBlockYAt(x, z) + 50, z));
+	    }
 	    gameStartFallingPlayers.add(player.getUniqueId());
 	    player.addPotionEffect(new PotionEffect(PotionEffectType.SLOW_FALLING, 400, 0, false, false));
 	    //Play a note

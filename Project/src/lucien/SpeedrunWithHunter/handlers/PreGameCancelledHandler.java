@@ -2,7 +2,6 @@ package lucien.SpeedrunWithHunter.handlers;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.event.entity.EntityPickupItemEvent;
 import org.bukkit.event.entity.FoodLevelChangeEvent;
 import org.bukkit.event.player.PlayerDropItemEvent;
@@ -10,12 +9,7 @@ import org.bukkit.event.player.PlayerDropItemEvent;
 import lucien.SpeedrunWithHunter.game.Main;
 
 public class PreGameCancelledHandler implements Listener {
-    @EventHandler
-    public void noEntityDamage(EntityDamageEvent event) {
-	if(Main.lobbyPeriod ==  true || Main.postGame == true)
-	    event.setCancelled(true);
-    }
-
+    //Handles FoodLevelChangeEvent, EntityPickupItemEvent, and PlayerDropItemEvent.
     @EventHandler
     public void noHungerChange(FoodLevelChangeEvent event) {
 	if(Main.lobbyPeriod == true)
@@ -33,4 +27,10 @@ public class PreGameCancelledHandler implements Listener {
 	if(Main.lobbyPeriod == true)
 	    event.setCancelled(true);
     }
+    
+    /*@EventHandler
+    public void noEntityDamage(EntityDamageEvent event) {
+	if(Main.lobbyPeriod ==  true || Main.postGame == true)
+	    event.setCancelled(true);
+    } */
 }

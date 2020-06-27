@@ -1,12 +1,11 @@
-main: lucien.HuntersXRunners.game.Main
-name: HuntersXRunners
+main: lucien.SpeedrunWithHunter.game.Main
+name: SpeedrunWithHunter
 version: testing
 author: Lucien
 prefix: LucienAI
 api-version: 1.15
-website: http://pornhub.com
 commands:
   test:
     description: Test
   grace:
-    description: Toggles pregame
+    description: Toggles lobby period

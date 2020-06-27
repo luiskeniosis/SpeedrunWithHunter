@@ -15,6 +15,7 @@ import lucien.SpeedrunWithHunter.game.GameItems;
 import lucien.SpeedrunWithHunter.game.Main;
 
 public class CraftingEventsHandler implements Listener {
+    //Handles PrepareItemCraftEvent
     @EventHandler
     public void handle(PrepareItemCraftEvent event) {
 	if(event.getRecipe() != null) {
